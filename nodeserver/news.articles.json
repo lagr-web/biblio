@@ -1,0 +1,111 @@
+[{
+  "_id": {
+    "$oid": "673496a25f363e78e15ed1c9"
+  },
+  "title": "Football",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "This is the opening paragraph of the article. It gives an overview of the news story."
+    },
+    {
+      "type": "image",
+      "url": "https://example.com/image.jpg",
+      "altText": "A description of the image",
+      "caption": "This is an image caption"
+    },
+    {
+      "text": "more text"
+    },
+    {
+      "type": "paragraph",
+      "text": "Here is more detailed content about the topic."
+    },
+    {
+      "type": "link",
+      "url": "https://example.com",
+      "text": "Read more about this topic here."
+    }
+  ],
+  "section": {
+    "$oid": "673492b05f363e78e15ed1b8"
+  },
+  "isLandingpage": true,
+  "publishedAt": {
+    "$date": "2024-11-13T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67349a265f363e78e15ed1d0"
+  },
+  "title": "Vejret i isLandingpage",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "This is the opening paragraph of the article. It gives an overview of the news story."
+    },
+    {
+      "type": "image",
+      "url": "https://example.com/image.jpg",
+      "altText": "A description of the image",
+      "caption": "This is an image caption"
+    },
+    {
+      "text": "more text"
+    },
+    {
+      "type": "paragraph",
+      "text": "Here is more detailed content about the topic."
+    },
+    {
+      "type": "link",
+      "url": "https://example.com",
+      "text": "Read more about this topic here."
+    }
+  ],
+  "section": {
+    "$oid": "673492ca5f363e78e15ed1ba"
+  },
+  "isLandingpage": true,
+  "publishedAt": {
+    "$date": "2024-11-13T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67349b2c5f363e78e15ed1d7"
+  },
+  "title": "Podcast i dag",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "This is the opening paragraph of the article. It gives an overview of the news story."
+    },
+    {
+      "type": "image",
+      "url": "https://example.com/image.jpg",
+      "altText": "A description of the image",
+      "caption": "This is an image caption"
+    },
+    {
+      "text": "more text"
+    },
+    {
+      "type": "paragraph",
+      "text": "Here is more detailed content about the topic."
+    },
+    {
+      "type": "link",
+      "url": "https://example.com",
+      "text": "Read more about this topic here."
+    }
+  ],
+  "section": {
+    "$oid": "673492d55f363e78e15ed1bb"
+  },
+  "isLandingpage": true,
+  "publishedAt": {
+    "$date": "2024-11-13T00:00:00.000Z"
+  }
+}]

@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  
+  .btn-read {
+    @apply block w-full
+  bg-[#557d85]
+  hover:bg-[#7AB3BF]
+  text-white
+  font-bold
+  rounded
+  py-1
+px-2;
+  }
+
+  html,
+  body {
+    max-width: 100vw;
+    overflow-x: hidden;
+    background-color: #faf9f9;
+  }
+
+  label {
+    @apply text-gray-700 
+    text-sm 
+    font-semibold mb-2;
+  }
+
+  input,
+  textarea,
+  select {
+    @apply shadow appearance-none 
+    border rounded w-full 
+    py-2 
+    px-3 
+    text-gray-500 
+    leading-tight;
+    font-size: 14px;
+  }
+
+  .deleteButton {
+    @apply bg-[#557d85]  hover:bg-[#7AB3BF]
+    text-white
+    font-bold
+    p-1
+    w-20
+    mr-3
+   rounded;
+  }
+
+  .cancelButton {
+    @apply bg-[#557d85]  hover:bg-[#7AB3BF]
+    text-white
+    font-bold
+    p-1
+    w-20
+   rounded;
+  }
+
+  .searchButton {
+    @apply bg-[#557d85]  hover:bg-[#7AB3BF]
+    text-white
+    font-bold
+    px-4
+    py-1.5
+    w-auto
+   
+   rounded;
+  }
+
+  .feedback {
+    @apply text-center 
+  bg-[#eb6424]
+ text-white 
+   mt-4  
+   py-2
+   rounded 
+    font-bold
+  }
+}

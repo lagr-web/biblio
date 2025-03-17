@@ -1,0 +1,7 @@
+{
+  "/dashboard/admin/page": "app/dashboard/admin/page.js",
+  "/(home)/page": "app/(home)/page.js",
+  "/genre/[slug]/page": "app/genre/[slug]/page.js",
+  "/book/[bookSlug]/page": "app/book/[bookSlug]/page.js",
+  "/dashboard/page": "app/dashboard/page.js"
+}
